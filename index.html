@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabor do Brasil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Perfil -->
+    <aside class="perfil">
+      <img src="logo_sabor_do_brasil.png" alt="Logo" class="logo" />
+      <h2>Sabor do Brasil</h2>
+      <hr class="linha" />
+      <p>Likes: <span id="totalLikes">0</span></p>
+      <p>Dislikes: <span id="totalDislikes">0</span></p>
+    </aside>
+
+    <!-- Publicações -->
+    <main class="publicacoes">
+      <h1>Pratos Disponíveis</h1>
+      <div id="cardsContainer">
+        <!-- Cards gerados dinamicamente aqui -->
+      </div>
+    </main>
+
+    <!-- Login -->
+    <section class="login">
+      <button id="loginBtn">Entrar</button>
+    </section>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Sabor do Brasil</p>
+    <img src="Instagram.svg" alt="Instagram" />
+    <img src="Twitter.svg" alt="Twitter" />
+    <img src="Whatsapp.svg" alt="WhatsApp" />
+    <img src="Globe.svg" alt="Site" />
+    <span>Copyright - 2024</span>
+  </footer>
+
+  <!-- Modal Login -->
+  <div id="loginModal" class="modal hidden">
+    <div class="modal-content">
+      <h3>Login</h3>
+      <input type="text" placeholder="Usuário" />
+      <input type="password" placeholder="Senha" />
+      <button>Entrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
