@@ -1,0 +1,4 @@
+Titulo,descricao,preco,imagem_url,empresa_id
+Promoção de Feijoada,Feijoada completa com desconto para grupo.,29.90,https://exemplo.com/feijoada.jpg,1
+Suco de Açaí,Açaí natural com guaraná.,10.50,https://exemplo.com/acai.jpg,2
+Moqueca Especial,Moqueca capixaba com peixe fresco.,49.90,https://exemplo.com/moqueca.jpg,1
