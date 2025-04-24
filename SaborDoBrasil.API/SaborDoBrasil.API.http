@@ -1,0 +1,6 @@
+@SaborDoBrasil.API_HostAddress = http://localhost:5062
+
+GET {{SaborDoBrasil.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
